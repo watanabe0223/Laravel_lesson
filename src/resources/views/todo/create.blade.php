@@ -5,6 +5,7 @@
           <div class="col-md-8">
             <div class="card">
               <div class="card-header">ToDo作成</div>
+              @include('layouts.message')
               <div class="card-body">
                 <form method="POST" action="{{ route('todo.store') }}">
                   @CSRF
